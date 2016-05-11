@@ -1,0 +1,103 @@
+* {
+	margin: 0px;
+}
+h1 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 300;
+	font-size: 50px;
+	color: black;
+	text-align: center;
+	margin: 3px 0;
+}
+h2 {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	margin: 2px 0;
+	padding: 3px;
+}
+header {
+	background: url("../images/hero.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	height: 850px;
+}
+div {
+	margin: 0 auto;
+	display: block
+}
+section {
+	text-align: center;
+	float: left;
+	width: 30%;
+	margin: 30px 14px;
+}
+footer {
+	background-color: white;
+	margin: 0px;
+	padding: 30px;
+	clear: both;
+	margin-bottom: 0;
+}
+ul {
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	color: black;
+	list-style: none;
+	text-align: center;
+	padding: 10px;
+	line-height: 22px;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+p {
+	padding: 15px;
+}
+.history {
+	border: 2px solid #353535;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	height: 160px;
+	margin-left: 45px;
+}
+.competencies {
+	border: 2px solid #353535;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	height: 160px;
+}
+.contact {
+	border: 2px solid #353535;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	height: 160px;
+}
+#slogan {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 200;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	margin: 2px;
+}
+.title {
+	position: absolute;
+	top: 46%;
+	left: 34%;
+	border: 2px solid black;
+	border-radius: 7px;
+	background-color: rgba(255, 255, 255, .7);
+	width: 550px;
+	margin: 0 auto;
+}
+.social {
+	text-align: center;
+}
+.social a {
+	margin: 0px 6px;
+}
