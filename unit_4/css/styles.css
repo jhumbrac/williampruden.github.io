@@ -1,11 +1,22 @@
 * {
-	margin: 0px;
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+}
+header {
+	background: url(../images/hero.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center;
+	height: 100vh;
+	position: relative;
 }
 h1 {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 300;
 	font-size: 50px;
-	color: black;
+	color: #222;
 	text-align: center;
 	margin: 4px 0;
 }
@@ -31,8 +42,9 @@ div {
 section {
 	text-align: center;
 	float: left;
-	width: 30%;
-	margin: 30px 14px;
+	width: 31.33%;
+	margin: 1%;
+	padding: 2em;
 }
 footer {
 	background-color: white;
@@ -62,24 +74,23 @@ p {
 	padding: 0.8em;
 	line-height: 1.6em;
 }
-.history {
-	border: 2px solid #353535;
+section {
+	/* border: 2px solid #353535; */
 	border-radius: 5px;
 	background-color: rgb(255, 255, 255);
-	height: 160px;
-	margin-left: 45px;
+	min-height: 15em;
 }
 .competencies {
-	border: 2px solid #353535;
+	/* border: 2px solid #353535; */
 	border-radius: 5px;
 	background-color: rgb(255, 255, 255);
-	height: 160px;
+	/* height: 160px; */
 }
 .contact {
-	border: 2px solid #353535;
+	/* border: 2px solid #353535; */
 	border-radius: 5px;
 	background-color: rgb(255, 255, 255);
-	height: 160px;
+	/* height: 160px; */
 }
 #slogan {
 	font-family: 'Dosis', sans-serif;
@@ -92,14 +103,13 @@ p {
 }
 .title {
 	position: absolute;
-	top: 46%;
-	left: 0;
-	right: 0;
+	top: 50%;
+	left: 50%;
 	border: 2px solid black;
 	border-radius: 7px;
 	background-color: rgba(255, 255, 255, .7);
 	width: 550px;
-	margin: 0 auto;
+	transform: translate(-50%, -50%);
 }
 .social {
 	text-align: center;
